@@ -1,0 +1,172 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    background-color: #000;
+    width: 748px;
+    height: 748px;
+    grid-template-columns: 150px 50px 60px 200px 40px 108px 80px;
+    grid-template-rows: 108px 100px 60px 40px 70px 50px 220px 30px;
+    gap: 10px;   
+}
+
+p {
+    grid-area: 9 / 6 / -1 / -1;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item {
+    background-color: #B4D4FF;
+}
+
+.first {
+    background-color: #FF0032;
+}
+
+.second {
+    background-color: #9A031E;
+    grid-area: 1 / 2 / 4 / 3;
+}
+
+.third {
+    background-color: #FFA732;
+    grid-column: span 2;
+}
+
+.fourth {
+    /*border: 10px solid #000;*/
+    grid-column: span 3;
+}
+
+.fifth {
+    background-color: #DBCC95;
+    grid-row: span 4;
+}
+
+.sixth {
+    background-color: #27005D;
+}
+
+.seventh {
+    background-color: #F4E869;
+    grid-row: span 3;
+    /*border-right: 10px solid #000;*/
+}
+
+.eighth {
+    background-color: #3085C3;
+    grid-column: span 2;
+}
+
+.ninth {
+    background-color: #FAF2D3;
+    grid-area: 3 / 5 / 4 / -1;
+}
+
+.tenth {
+    background-color: #5CD2E6;
+}
+
+.eleventh {
+    background-color: #0079FF;
+}
+
+.twelfth {
+    background-color: #00DFA2;
+}
+
+.thirteenth {
+    background-color: #F6FA70;
+}
+
+.fourteenth {
+    background-color: #FF0060;
+}
+
+.fifteenth {
+    background-color: #A2D2FF;
+}
+
+.sixteenth {
+    background-color: #FF0060;
+}
+
+.seventeenth {
+    background-color: #FEF9EF;
+    grid-area: 5 / 2 / 7 / 4;
+}
+
+.eighteenth {
+    background-color: #FF865E;
+}
+
+.nineteenth {
+    background-color: #FEE44080;
+    grid-area: 5 / 5 / 7 / 6;
+}
+
+.twentieth {
+    background-color: #711DB0;
+    grid-column: span 2;
+}
+
+.twenty-first {
+    background-color: #C21292;
+}
+
+.twenty-second {
+    background-color: #FFA73280;
+    grid-area: 6 / 4 / 7 / 5;
+}
+
+.twenty-third {
+    background-color: #BED754;
+    grid-area: 6 / 6 / 8 / -1;
+}
+
+.twenty-fourth {
+    background-color: #B0926A;
+    /*border-right: 10px solid black;*/
+}
+
+.twenty-fifth {
+    grid-area: 7 / 2 / -1 / 3;
+}
+
+.twenty-sixth {
+    background-color: #22092C;
+    grid-column: span 2;
+}
+
+.twenty-seventh {
+    background-color: #F6F7C4;
+}
+
+.twenty-eighth {
+    background-color: #FFEA20;
+}
+
+.twenty-ninth {
+    background-color: #E3F6FF;
+}
+
+.thirteeth {
+    background-color: #F94A29;
+    grid-column: span 3;
+}
+
+.thirty-first {
+    background-color: #610C9F;
+}
